@@ -1,0 +1,13 @@
+/gamerule doDaylightCycle false
+/time set day
+/enchant
+/enchant Conutik minecraft:blast_protection 3
+/enchant Conutik minecraft:bane_of_arthropods 3
+/weather clear
+/enchant Conutik minecraft:efficiency 5
+/random roll 10
+/random roll 10 10
+/random roll 2 10
+/random roll 2 minecraft:blocks/azalea
+/random roll 1 minecraft:blocks/azalea
+/random roll 5 minecraft:blocks/azalea

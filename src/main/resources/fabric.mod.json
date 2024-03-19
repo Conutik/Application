@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "item-viewer",
+	"version": "${version}",
+	"name": "item viewer",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/item-viewer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.conutik.itemviewer.ItemViewer"
+		],
+		"client": [
+			"com.conutik.itemviewer.ItemViewerClient"
+		],
+		"fabric-datagen": [
+			"com.conutik.itemviewer.ItemViewerDataGenerator"
+		]
+	},
+	"mixins": [
+		"item-viewer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-key-binding-api-v1": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
