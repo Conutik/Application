@@ -81,7 +81,6 @@ public class ItemViewerClient implements ClientModInitializer {
                 NbtElement element = nbtCompound.get(key);
                 assert element != null;
                 ItemStack item = ItemStack.fromNbt((NbtCompound) element);
-                ItemViewer.LOGGER.info(item.toString());
             }
         } else if (nbtElement instanceof NbtList nbtList) {
             for (NbtElement element : nbtList) {

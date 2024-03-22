@@ -13,16 +13,13 @@
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/item-viewer/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"main": [
 			"com.conutik.itemviewer.ItemViewer"
 		],
 		"client": [
 			"com.conutik.itemviewer.ItemViewerClient"
-		],
-		"fabric-datagen": [
-			"com.conutik.itemviewer.ItemViewerDataGenerator"
 		]
 	},
 	"mixins": [
